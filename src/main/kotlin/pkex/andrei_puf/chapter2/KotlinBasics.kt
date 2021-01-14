@@ -1,4 +1,4 @@
-package pkex.andrei_puf
+package pkex.andrei_puf.chapter2
 
 fun main() {
     //Vals and vars

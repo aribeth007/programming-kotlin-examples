@@ -11,7 +11,6 @@ fun main() {
     name2 = "kotlin"
 
     //Type inference
-
     val string = "kotlin" // Type inferred from the rexpression
     val string2: String = "kotlin" // Explicit type
 
@@ -73,7 +72,7 @@ fun main() {
      */
 
     val escapedString = "Escaped \n String"
-    val rawString =  """Unsecaped 
+    val rawString =  """    Unsecaped 
     String """
 
     println(escapedString)

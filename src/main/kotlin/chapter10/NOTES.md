@@ -17,3 +17,23 @@ A lambda expression is a function with no name whose return type is inferred.
 Basic structure
 
 `` { parameter list -> body } ``
+
+Passing lambdas
+
+Receiving lambdas
+
+Using function references
+
+Function returning functions
+
+Lambdas and Anonymous Functions
+
+Lambdas and Closures and Lexical Scoping
+
+Closures
+The compiler has to look in the defining scope of the closure—that is, where the body of the closure is defined for a specific variable. 
+If it doesn’t find it there, the compiler will have to continue the search in the defining scope of the defining scope, and so on. 
+This is called lexical scoping.
+
+
+Non-Local and Labeled return - TODO
